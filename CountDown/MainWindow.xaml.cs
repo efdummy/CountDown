@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
+using System.Windows.Data;dépassement
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
@@ -16,6 +16,13 @@ using System.Windows.Shapes;
 using System.Windows.Threading;
 
 /// <summary>
+/// Count down
+/// 
+/// Count down is usefull to control the speech time in a conference where slides and image are displayed.
+/// Just start CountDonw.exe and it will display discreetly on the screen the remaining seconds for your speech.
+/// You can let CountDown.exe in the Background. When the time is over, it will go back in the foreground (one time) and display a red background.
+/// It also display the number of seconds of the exeeding time.
+/// 
 /// Display a small Window with a running count down
 /// - Count down starting value is given by the file name (for example 240.exe for 240 seconds which is 4 minutes)
 /// - Change the exe file name (rename the file) if you need a different starting value
