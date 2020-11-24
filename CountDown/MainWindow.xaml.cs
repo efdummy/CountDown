@@ -19,7 +19,7 @@ using System.Windows.Threading;
 /// Display a small Window with a running count down
 /// - Count down starting value is given by the file name (for example 240.exe for 240 seconds which is 4 minutes)
 /// - Change the exe file name (rename the file) if you need a different starting value
-/// - By default (if the shape of exe filename is not <integer>.exe), the count dow will be of 10 seconds
+/// - By default (if the shape of exe filename is not <integer>.exe), the count down will be of 10 seconds
 /// - When the count down is over, the backgroung of the Windows becomes red
 /// </summary>
 
